@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background: linear-gradient(to right,rgb(208, 243, 208),rgb(255, 255, 255));
+}
+
+a{
+   color: #037131;              
+   padding: 12px 24px;       
+   margin: 10px;              
+   border: none;
+   border-radius: 5px;        
+   text-decoration: none;
+}
+
+a:hover {
+  background-color: #ededed; 
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+button{
+    background: linear-gradient(to right, green,white);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button:hover{
+    background: linear-gradient(to right,white,black);
+    color: black;
+}
+
+.k1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:40%;
+}
+
+.k2{
+    margin-top: 20px;
+    margin-bottom: 73px;
+}
+
+.comments{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+#width{
+    background: linear-gradient(to right,rgb(85, 232, 85), rgb(216, 225, 216));
+    margin: auto;
+    margin-top: 20px;
+    width: 60%;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#header{
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#navbar{
+    background-color: #b1dc16;
+    color: rgb(2, 157, 41);
+    font-size: 20px;
+    padding: 12px;
+    text-align: center;
+}
+
+#footer{
+    background-color: blueviolet;
+    color:white;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 30px;
+}

@@ -1,0 +1,142 @@
+body{
+    background: linear-gradient(to right, #9da39d, #ebe9e7);
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+}
+
+h1, h2, h3{
+    font-family: "Playfair Display", serif;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+button{
+    background-color: rgb(227, 223, 223);
+    color: black;
+    padding-bottom: 1px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.a{
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
+.about{
+    text-align: center;
+}
+
+.abouthim{
+    max-width: 800px;
+    margin:0 auto;
+}
+
+.b{
+   color: #ffffff;              
+   padding: 12px 24px;       
+   margin: 10px;              
+   border: none;
+   border-radius: 5px;        
+   text-decoration: none;
+}
+
+.b:hover {
+  background-color: #ffffff; 
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.img{
+    max-width: 400px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+
+#header{
+    text-align: center;
+    background-color: rgb(41, 18, 18);
+    color: white;
+    padding: 5px;
+}
+
+#nav{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 12px;
+    text-align: center;
+}
+
+#content{
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#image{
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:inset 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+#lists{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    list-style-type: square;
+    list-style-type: upper-roman;
+}
+
+#link{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#footer{
+    text-align: center;
+    background-color: rgb(41, 18, 18);
+    color: white;
+    padding: 3px;
+    margin-top: 20px;
+}
+
+
